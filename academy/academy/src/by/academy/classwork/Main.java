@@ -9,6 +9,6 @@ public class Main {
 		short test = 512;
 		System.out.println("Your exam resuts:");
 		System.out.println("Your age is: " + myAge + ", passport number: " + passportNumber);
-		System.out.println("You got: " + yourMark + ", average mark is " + averagemark);
+		System.out.println("You gotttt: " + yourMark + ", average mark is " + averagemark);
 	}
 }
