@@ -19,7 +19,7 @@ public class lesson5 {
 			mass[mass.length - 1 - i] = x;
 		}
 		for (i = 0; i < size; i++) {
-			System.out.print(mass[i] + " ");
+			System.out.println(mass[i] + " ");
 			
 		}
 
