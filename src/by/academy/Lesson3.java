@@ -7,7 +7,7 @@ public class Lesson3 {
 		int mass[] = new int[10];
 		for (i = 0; i < mass.length; i++) {
 			mass[i] = (int) (Math.random() * 10);
-						System.out.print(mass[i]);
+			System.out.print(mass[i]);
 			sum += mass[i];
 		}
 		System.out.println("");
