@@ -1,3 +1,4 @@
+package by.academy;
 import java.util.Scanner;
 
 public class Lesson2_7 {

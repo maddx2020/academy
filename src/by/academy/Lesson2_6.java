@@ -1,3 +1,4 @@
+package by.academy;
 
 public class Lesson2_6 {
 	public static void main(String[] args) {
