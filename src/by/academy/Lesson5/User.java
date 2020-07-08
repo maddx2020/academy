@@ -1,19 +1,23 @@
 package by.academy.Lesson5;
 
 public class User {
-	private User name;
+	private String name;
 	
-	
-	public User () {
+	public User() {
 		super();
-		
+
+	}
+	public User(String name) {
+		super();
+		this.name = name;
+
 	}
 
-	public void setName(User name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	public User getName() {
+	public String getName() {
 		return name;
 	}
 	
