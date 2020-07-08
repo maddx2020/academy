@@ -1,13 +1,13 @@
 package by.academy.Produkt;
 
-public class Product {
+public class Product1 {
 
 	private double price;
 	private double discount;
 	private String name;
 	private int quantity;
 
-	public Product(String name,int quantity,double price) {
+	public Product1(String name,int quantity,double price) {
 	super();
 	this.name = name;
 	this.quantity = quantity;
@@ -49,7 +49,7 @@ public class Product {
 		return quantity;
 	}
 
-	public static void main(String[] args) {
-
-	}
+//	public static void main(String[] args) {
+//
+//	}
 }
