@@ -12,7 +12,7 @@ public class Lesson3_4 {
 		System.out.print("¬ведите сколько чисел будете вводить с клавиатуры: ");
 		int n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
-			System.out.print("¬ведите " + (i + 1) + " число: ");
+			System.out.print("¬ведите   " + (i + 1) + " число: ");
 			number = sc.nextInt();
 			if (number>0) {
 				pcount++;
