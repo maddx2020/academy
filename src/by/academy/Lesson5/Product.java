@@ -3,8 +3,8 @@ package by.academy.Lesson5;
 public class Product {
 
 	private String name;
-	private int quantity;
-	private double price;
+	protected int quantity;
+	protected double price;
 
 	public Product() {
 		super();
