@@ -1,33 +1,28 @@
-package by.academy.Produkt;
+package by.academy.Lesson4;
 
 public class Product1 {
 
 	private double price;
-	private double discount;
 	private String name;
 	private int quantity;
 
-	public Product1(String name,int quantity,double price) {
-	super();
-	this.name = name;
-	this.quantity = quantity;
-//	this.discount = discount;
-	this.price=price;
+	public Product1() {
+		super();
 	}
-	
-	
-	
+	public Product1(String name, int quantity, double price) {
+		super();
+		this.name = name;
+		this.quantity = quantity;
+		this.price = price;
+	}
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
 
 	public double getPrice() {
-		return price*quantity/100*(100-getDiscount());
+		return price;
 	}
-
-//	public void setDiscount(double discount) {
-//		this.discount = discount;
-//	}
 
 	public double getDiscount() {
 		return 10;
@@ -48,8 +43,13 @@ public class Product1 {
 	private int getQuantity() {
 		return quantity;
 	}
+	
+	void bill() {
+		System.out.println("Итоговая сумма по чеку: ");
+		
+	
+	
+	
+	}
 
-//	public static void main(String[] args) {
-//
-//	}
 }

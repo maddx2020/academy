@@ -9,6 +9,7 @@ public class User {
 	}
 	public User(String name) {
 		super();
+		System.out.println("Конструктор User");
 		this.name = name;
 
 	}
