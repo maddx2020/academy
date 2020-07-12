@@ -5,8 +5,8 @@ public class Product1 {
 	private double finSumm;
 	private double price;
 	private String name;
-	private int quantity;
-	private int discount;
+	protected int quantity;
+	protected int discount;
 
 	public Product1(String name, int quantity, double price) {
 		super();
@@ -55,7 +55,7 @@ public class Product1 {
 
 	}
 
-	final int finalDisount() {
+	protected int finalDisount() {
 
 		if (quantity < 10) {
 			discount = 5;
