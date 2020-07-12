@@ -4,19 +4,20 @@ public class Product {
 
 	private String name;
 	private int quantity;
+	private double price;
 
 	public Product() {
 		super();
 	}
 
-	public Product[](String name, int quantity) {
+	public Product(String name, int quantity, double price) {
 		super();
-		System.out.println("Конструктор Product");
 		this.name = name;
 		this.quantity = quantity;
+		this.price = price;
 	}
 
-	public void getName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
@@ -24,7 +25,7 @@ public class Product {
 		return name;
 	}
 
-	public void setQuantity(int quantity) {
+	private void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 
@@ -32,8 +33,16 @@ public class Product {
 		return quantity;
 	}
 
-	public String result() {
-		String s =name + " " + quantity;
-		return s;
+	private void setPrice(double price) {
+		this.price = price;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public double fullSum() {
+		return price * quantity;
+
 	}
 }

@@ -2,27 +2,19 @@ package by.academy.Lesson5;
 
 public class Main {
 	public static void main(String[] args) {
-	
-		User seller = new User("Vasa");
-//
-//		System.out.println(seller.getName());
-//
-//		
-		User buyer = new User("Leo");
-//		System.out.println(buyer.getName());
 
-		Product[] products = new Product[3];
-//
-		
-		
-		
-//		Deal deal = new Deal(seller.getName(),buyer.getName(),products);
-//
-//		deal.getSeller();
-//		deal.getBuyer();
-//		deal.getProducts();
+		User user1 = new User("Вася");
+		User user2 = new User("Леха");
 
-		System.out.println("?");
+		Product prod1 = new Product("хлеб", 1, 1.40);
+		Product prod2 = new Product("молоко", 3, 2.11);
+
+		Product[] products = { prod1, prod2 };
+
+		Deal deal = new Deal(user1, user2, products);
+
+		System.out.println(deal.fullPrice());
+
 	}
 
 }

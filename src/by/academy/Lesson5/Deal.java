@@ -4,6 +4,7 @@ public class Deal {
 	private User seller;
 	private User buyer;
 	private Product[] products;
+	private double fullprice;
 
 	public Deal() {
 		super();
@@ -11,7 +12,6 @@ public class Deal {
 
 	public Deal(User seller, User buyer, Product[] products) {
 		super();
-		System.out.println("Конструктор DEAL");
 		this.seller = seller;
 		this.buyer = buyer;
 		this.products = products;
@@ -41,4 +41,13 @@ public class Deal {
 	public Product[] getProducts() {
 		return products;
 	}
+
+	public double fullPrice() {
+		double fullprice=0;
+		for(Product p:products) {
+			 fullprice +=p.fullSum() ;
+		}
+		return fullprice;
+	}
+
 }
