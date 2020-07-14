@@ -1,6 +1,6 @@
 package by.academy.Lesson5;
 
-public class Vino extends Apple{
+public class Vino extends Apple {
 	int discount;
 
 	public Vino(String name, int quantity, double price) {
@@ -19,11 +19,7 @@ public class Vino extends Apple{
 			}
 		}
 		return discount;
-		
-	}
-
-	
 
 	}
 
-
+}
