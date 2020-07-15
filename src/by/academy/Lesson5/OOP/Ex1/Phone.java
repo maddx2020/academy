@@ -11,15 +11,15 @@ public class Phone implements Serializable {
 	protected int number;
 	protected String model;
 	protected double weight;
-	private String name;
+	protected String name;
 //	protected Numbers[] numbers;
-	int numbers;
 
 	public Phone() {
-
+		super();
 	}
 
 	public Phone(int number, String model) {
+		super();
 		this.number = number;
 		this.model = model;
 	}

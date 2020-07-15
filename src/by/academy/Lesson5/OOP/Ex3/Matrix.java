@@ -12,16 +12,6 @@ public class Matrix {
 			System.out.println("");
 		}
 	}
-//peremnojenie matric
-	public static double[][] multiplication(double[][] array1, double[][] array2) {
-		double[][] array3 = new double[a][b];
-		for (int i = 0; i < array1.length; i++) {
-			for (int j = 0; j < array1[i].length; j++) {
-				array3[i][j] = array1[i][j] * array2[i][j];
-			}
-		}
-		return array3;
-	}
 	
 //unojenie na chislo
 	public static double[][] multiNumber(double[][] array1, double number) {
@@ -34,7 +24,7 @@ public class Matrix {
 		return array3;
 	}
 	
-//summa matic
+//summa matric
 	public static double[][] summMatrix(double[][] array1, double[][] array2) {
 		double[][] array3 = new double[a][b];
 		for (int i = 0; i < array1.length; i++) {
@@ -59,12 +49,13 @@ public class Matrix {
 
 		printArray(array1);
 		System.out.println();
+		
 		printArray(array2);
 		System.out.println();
-		printArray(multiplication(array1, array2));
-		System.out.println();
+		
 		printArray(multiNumber(array2, 5));
 		System.out.println();
+		
 		printArray(summMatrix(array2, array2));
 		
 	}

@@ -54,6 +54,7 @@ public class Person implements Serializable {
 		Person person1 = new Person("Tom Spenser", 29);
 		person1.move();
 		person1.speak();
+		person1.getAge();
 
 	}
 }
