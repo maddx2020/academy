@@ -20,6 +20,46 @@ public class Reader {
 		this.phoneNumber = phoneNumber;
 	}
 
+	protected String getFio() {
+		return fio;
+	}
+
+	protected void setFio(String fio) {
+		this.fio = fio;
+	}
+
+	protected int getBiletNumber() {
+		return biletNumber;
+	}
+
+	protected void setBiletNumber(int biletNumber) {
+		this.biletNumber = biletNumber;
+	}
+
+	protected String getFacultet() {
+		return facultet;
+	}
+
+	protected void setFacultet(String facultet) {
+		this.facultet = facultet;
+	}
+
+	protected int getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	protected void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	protected String getBirthday() {
+		return birthday;
+	}
+
+	protected void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
+
 	public void takeBook() {
 		System.out.println("Читатель взял книгу.");
 	}
@@ -34,8 +74,8 @@ public class Reader {
 
 	public void takeBook(String[] titles) {
 		System.out.print(fio + " взял книги: ");
-		for(String i:titles) {
-			System.out.print(i +" ");
+		for (String i : titles) {
+			System.out.print(i + " ");
 		}
 	}
 }
