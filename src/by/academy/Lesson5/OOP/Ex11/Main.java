@@ -6,13 +6,17 @@ public class Main {
 
 		Shape circle = new Circle();
 		Shape rectangle = new Rectangle();
+		Shape rect = new Rectangle(0,0,5,5);
 
 		Shape[] shapes = { circle, rectangle };
 
-		for (Shape i : shapes) {
-			i.drow();
-		}
+//		for (Shape i : shapes) {
+//			i.drow();
+//		}
 
+	rectangle.drow();
+	
+	
 	}
 
 }

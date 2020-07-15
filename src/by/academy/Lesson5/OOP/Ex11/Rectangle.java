@@ -51,7 +51,9 @@ public class Rectangle extends Shape {
 
 	@Override
 	void drow() {
-		
+		for(;x1<x2;x1++) {
+			System.out.println("*");
+		}
 		
 		
 	}
