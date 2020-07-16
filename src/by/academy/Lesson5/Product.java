@@ -25,7 +25,7 @@ public class Product {
 		return name;
 	}
 
-	private void setQuantity(int quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 
@@ -33,7 +33,7 @@ public class Product {
 		return quantity;
 	}
 
-	private void setPrice(double price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 

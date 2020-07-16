@@ -2,11 +2,12 @@ package by.academy.Lesson5;
 
 public class User {
 	private String name;
-	
+
 	public User() {
 		super();
 
 	}
+
 	public User(String name) {
 		super();
 		this.name = name;
@@ -20,5 +21,5 @@ public class User {
 	public String getName() {
 		return name;
 	}
-	
+
 }

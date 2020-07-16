@@ -4,7 +4,6 @@ public class Deal {
 	private User seller;
 	private User buyer;
 	private Product[] products;
-	private double fullprice;
 
 	public Deal() {
 		super();
@@ -43,9 +42,9 @@ public class Deal {
 	}
 
 	public double fullPrice() {
-		double fullprice=0;
-		for(Product p:products) {
-			 fullprice +=p.fullSum() ;
+		double fullprice = 0;
+		for (Product p : products) {
+			fullprice += p.fullSum();
 		}
 		return fullprice;
 	}

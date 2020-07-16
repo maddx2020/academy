@@ -1,7 +1,7 @@
 package by.academy.Lesson5;
 
 public class Vino extends Product {
-	
+
 	int discount;
 
 	public Vino(String name, int quantity, double price) {
