@@ -1,6 +1,7 @@
 package by.academy.Lesson5;
 
 public class Chees extends Product {
+
 	int discount;
 
 	public Chees(String name, int quantity, double price) {
