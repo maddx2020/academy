@@ -8,32 +8,32 @@ public class Person implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String fullName;
-	private int age;
+	protected String fullName;
+	protected int age;
 
 	public Person() {
 		super();
 	}
 
-	private Person(String fullName, int age) {
+	public Person(String fullName, int age) {
 		super();
 		this.fullName = fullName;
 		this.age = age;
 	}
 
-	private String getFullName() {
+	public String getFullName() {
 		return fullName;
 	}
 
-	private void setFullName(String fullName) {
+	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
 
-	private int getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	private void setAge(int age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
@@ -45,16 +45,4 @@ public class Person implements Serializable {
 		System.out.println("Person " + fullName + " speak");
 	}
 
-	public static void main(String[] args) {
-		Person person = new Person();
-		person.fullName = "Bill Colins";
-		person.move();
-		person.speak();
-
-		Person person1 = new Person("Tom Spenser", 29);
-		person1.move();
-		person1.speak();
-		person1.getAge();
-
-	}
 }
