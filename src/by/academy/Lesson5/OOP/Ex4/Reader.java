@@ -61,19 +61,19 @@ public class Reader {
 	}
 
 	public void takeBook() {
-		System.out.println("Читатель взял книгу.");
+		System.out.println("Р§РёС‚Р°С‚РµР»СЊ РІР·СЏР» РєРЅРёРіСѓ.");
 	}
 
 	public void returnBook() {
-		System.out.println("Читатель вернул книгу.");
+		System.out.println("Р§РёС‚Р°С‚РµР»СЊ РІРµСЂРЅСѓР» РєРЅРёРіСѓ.");
 	}
 
 	public void takeBook(int n) {
-		System.out.println(fio + " взял " + n + " книги");
+		System.out.println(fio + " РІР·СЏР» " + n + " РєРЅРёРіРё");
 	}
 
 	public void takeBook(String[] titles) {
-		System.out.print(fio + " взял книги: ");
+		System.out.print(fio + " РІР·СЏР» РєРЅРёРіРё: ");
 		for (String i : titles) {
 			System.out.print(i + " ");
 		}

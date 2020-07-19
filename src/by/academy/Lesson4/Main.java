@@ -5,19 +5,19 @@ import by.academy.Lesson5.Product;
 public class Main {
 
 	public static void main(String[] args) {
-		Product1 product1 = new Product1("макарошки", 11, 1.5);
+		Product1 product1 = new Product1("РјР°РєР°СЂРѕС€РєРё", 11, 1.5);
 		product1.bill();
 
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
 				
-		Vino caberne = new Vino("Каберне", 10, 20);
+		Vino caberne = new Vino("РљР°Р±РµСЂРЅРµ", 10, 20);
 		caberne.bill();
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");		
-		Eda bread = new Eda("Батон", 2, 5.5,"Хлебобулка"); 
+		Eda bread = new Eda("Р‘Р°С‚РѕРЅ", 2, 5.5,"РҐР»РµР±РѕР±СѓР»РєР°"); 
 		bread.bill();
 		System.out.println("");
 		
