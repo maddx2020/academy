@@ -8,48 +8,48 @@ public class Lesson2_2 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("введите название месяца");
+		System.out.println("РІРІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ РјРµСЃСЏС†Р°");
 		String name = sc.nextLine();
-
+		sc.close();
 		switch (name) {
-		case "январь":
+		case "СЏРЅРІР°СЂСЊ":
 			System.out.println("1");
 			break;
-		case "февраль":
+		case "С„РµРІСЂР°Р»СЊ":
 			System.out.println("2");
 			break;
-		case "март":
+		case "РјР°СЂС‚":
 			System.out.println("3");
 			break;
-		case "апрель":
+		case "Р°РїСЂРµР»СЊ":
 			System.out.println("4");
 			break;
-		case "май":
+		case "РјР°Р№":
 			System.out.println("5");
 			break;
-		case "июнь":
+		case "РёСЋРЅСЊ":
 			System.out.println("6");
 			break;
-		case "июль":
+		case "РёСЋР»СЊ":
 			System.out.println("7");
 			break;
-		case "август":
+		case "Р°РІРіСѓСЃС‚":
 			System.out.println("8");
 			break;
-		case "сентябрь":
+		case "СЃРµРЅС‚СЏР±СЂСЊ":
 			System.out.println("9");
 			break;
-		case "октябрь":
+		case "РѕРєС‚СЏР±СЂСЊ":
 			System.out.println("10");
 			break;
-		case "ноябрь":
+		case "РЅРѕСЏР±СЂСЊ":
 			System.out.println("11");
 			break;
-		case "декабрь":
+		case "РґРµРєР°Р±СЂСЊ":
 			System.out.println("12");
 			break;
 		default:
-			System.out.println("нет таких месяцев в году");
+			System.out.println("РЅРµС‚ С‚Р°РєРёС… РјРµСЃСЏС†РµРІ РІ РіРѕРґСѓ");
 		}
 	}
 

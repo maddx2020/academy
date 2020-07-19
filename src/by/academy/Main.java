@@ -7,7 +7,6 @@ public class Main {
 		long passportNumber = 1234567890L;
 		char yourMark = 'A';
 		double averagemark = 4.12;
-		short test = 512;
 		System.out.println("Your exam resuts:");
 		System.out.println("Your age is: " + myAge + ", passport number: " + passportNumber);
 		System.out.println("You gotttgggggggggt: " + yourMark + ", average mark is " + averagemark);

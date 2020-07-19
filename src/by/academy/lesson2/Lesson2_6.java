@@ -17,7 +17,7 @@ public class Lesson2_6 {
 		week = w % 4;
 		month = w / 4;
 
-		System.out.println(month + " месяц(ев) " + week + " неделя(и) " + days + " суток " + hours + " часов " + min
-						  + " минут " + sec + " секунд");
+		System.out.println(month + " РјРµСЃСЏС†(РµРІ) " + week + " РЅРµРґРµР»СЏ(Рё) " + days + " СЃСѓС‚РѕРє " + hours + " С‡Р°СЃРѕРІ " + min
+						  + " РјРёРЅСѓС‚ " + sec + " СЃРµРєСѓРЅРґ");
 	}
 }

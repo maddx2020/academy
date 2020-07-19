@@ -9,10 +9,10 @@ public class Lesson3_4 {
 		int number = 0;
 		int mcount=0,pcount=0,count=0;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Введите сколько чисел будете вводить с клавиатуры: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЃРєРѕР»СЊРєРѕ С‡РёСЃРµР» Р±СѓРґРµС‚Рµ РІРІРѕРґРёС‚СЊ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹: ");
 		int n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
-			System.out.print("Введите   " + (i + 1) + " число: ");
+			System.out.print("Р’РІРµРґРёС‚Рµ   " + (i + 1) + " С‡РёСЃР»Рѕ: ");
 			number = sc.nextInt();
 			if (number>0) {
 				pcount++;
@@ -26,7 +26,7 @@ public class Lesson3_4 {
 		}
 		
 		}
-		System.out.println("Количество положительных чисел: " + pcount + " Количество отрицательных чисел: " + mcount + " Количество чисел c 0: " + count);
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР»: " + pcount + " РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… С‡РёСЃРµР»: " + mcount + " РљРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» c 0: " + count);
 	}
 	
 }
