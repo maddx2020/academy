@@ -1,6 +1,6 @@
 package by.academy.Lesson4;
 
-import by.academy.Lesson5.Product;
+
 
 public class Main {
 
