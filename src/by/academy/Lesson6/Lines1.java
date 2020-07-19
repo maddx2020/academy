@@ -12,22 +12,6 @@ public class Lines1 {
 		System.out.println(b.length());
 		System.out.println(c.length());
 
-//		if ((a.length() > b.length()) && (a.length() > c.length())) {
-//			System.out.println("Самая длинная строка :" + a);
-//			if (b.length() > c.length()) {
-//				System.out.println("Самая короткая строка :" + c);
-//			} else {
-//				System.out.println("Самая короткая строка :" + b);
-//							}
-//		return;
-//		}
-//		if (b.length() > c.length()) {
-//			System.out.println("Самая длинная строка :" + b);
-//			System.out.println("Самая короткая строка :" + a);
-//		}else {
-//			System.out.println("Самая длинная строка :" + c);
-//			System.out.println("Самая короткая строка :" + a);
-//		}
 
 		if (a.length() > b.length()) {
 			if (b.length() > c.length()) {
