@@ -1,9 +1,11 @@
 package by.academy.Lesson8enum;
 
 import java.lang.annotation.ElementType;
+import java.lang.annotation.Inherited;
 import java.lang.annotation.Target;
 
-@Target({ElementType.FIELD,ElementType.METHOD})
+@Target({})
+@Inherited
 public @interface ProduserInfo {
 	
 	String name();
