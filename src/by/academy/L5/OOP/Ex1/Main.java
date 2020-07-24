@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex1;
+package by.academy.L5.OOP.Ex1;
 
 public class Main {
 	public static void main(String[] args) {

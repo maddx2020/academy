@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex2;
+package by.academy.L5.OOP.Ex2;
 
 import java.io.Serializable;
 

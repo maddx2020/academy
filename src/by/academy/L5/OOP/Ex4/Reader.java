@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex4;
+package by.academy.L5.OOP.Ex4;
 
 public class Reader {
 	private String fio;

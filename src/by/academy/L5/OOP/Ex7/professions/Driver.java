@@ -1,6 +1,6 @@
-package by.academy.H2.OOP.Ex7.professions;
+package by.academy.L5.OOP.Ex7.professions;
 
-import by.academy.H2.OOP.Ex2.Person;
+import by.academy.L5.OOP.Ex2.Person;
 
 public class Driver extends Person {
 

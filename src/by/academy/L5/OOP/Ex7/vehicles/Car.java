@@ -1,7 +1,7 @@
-package by.academy.H2.OOP.Ex7.vehicles;
+package by.academy.L5.OOP.Ex7.vehicles;
 
-import by.academy.H2.OOP.Ex7.details.Engine;
-import by.academy.H2.OOP.Ex7.professions.Driver;
+import by.academy.L5.OOP.Ex7.details.Engine;
+import by.academy.L5.OOP.Ex7.professions.Driver;
 
 public class Car {
 

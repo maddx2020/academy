@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex7.details;
+package by.academy.L5.OOP.Ex7.details;
 
 public class Engine {
 

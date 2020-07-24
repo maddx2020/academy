@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex8;
+package by.academy.L5.OOP.Ex8;
 
 public class Cat extends Animal {
 
