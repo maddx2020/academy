@@ -1,4 +1,4 @@
-package by.academy.H2.OOP.Ex3;
+package by.academy.L5.OOP.Ex3;
 
 public class Main {
 
