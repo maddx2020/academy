@@ -1,4 +1,4 @@
-package by.academy.Lesson9;
+package by.academy.Lesson9_Generic;
 
 public class Main9 {
 
