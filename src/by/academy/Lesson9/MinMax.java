@@ -2,8 +2,8 @@ package by.academy.Lesson9;
 
 public class MinMax<T extends Number> {
 	private T[] array;
-	Double min;
-	Double max;
+	private Double min;
+	private Double max;
 
 	public MinMax() {
 		super();
@@ -16,8 +16,8 @@ public class MinMax<T extends Number> {
 	}
 
 	public Double minArray() {
+		min = array[0].doubleValue();
 		for (T el : array) {
-			min = array[0].doubleValue();
 			if (el.doubleValue() < min) {
 				min = el.doubleValue();
 			}
@@ -26,8 +26,8 @@ public class MinMax<T extends Number> {
 	}
 
 	public Double maxArray() {
+		max = array[0].doubleValue();
 		for (T el : array) {
-			max = el.doubleValue();
 			if (el.doubleValue() > max) {
 				max = el.doubleValue();
 			}
