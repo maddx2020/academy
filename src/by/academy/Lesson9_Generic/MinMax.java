@@ -10,8 +10,7 @@ public class MinMax<T extends Number> {
 	public MinMax() {
 		super();
 	}
-	
-	
+
 	public MinMax(T[] array) {
 		super();
 		this.array = array;
@@ -38,12 +37,9 @@ public class MinMax<T extends Number> {
 	}
 
 	public boolean equalMinMax(Double max, Double min) {
-	return max.equals(min);
+		return max.equals(min);
 
-
-	
 	}
-
 
 	@Override
 	public String toString() {
@@ -58,6 +54,3 @@ public class MinMax<T extends Number> {
 		return builder.toString();
 	}
 }
-
-
-
