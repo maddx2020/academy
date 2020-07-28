@@ -12,11 +12,13 @@ public class Main9 {
 		System.out.println("max= " + intArray.maxArray());
 		System.out.println("min2= " + dArray.minArray());
 		
-
+		dArray.maxArray();
 //		Double max = intArray.maxArray();
 //		Double min = intArray.minArray();
 
 		System.out.println("max = min - " + intArray.equalMinMax(intArray.maxArray(), dArray.minArray()));
+		System.out.println();
+		System.out.println(dArray.toString());
 	}
 
 }

@@ -1,5 +1,7 @@
 package by.academy.Lesson9;
 
+import java.util.Arrays;
+
 public class MinMax<T extends Number> {
 	private T[] array;
 	private Double min;
@@ -39,6 +41,21 @@ public class MinMax<T extends Number> {
 	return max.equals(min);
 
 
+	
+	}
+
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("MinMax [array=");
+		builder.append(Arrays.toString(array));
+		builder.append(", min=");
+		builder.append(min);
+		builder.append(", max=");
+		builder.append(max);
+		builder.append("]");
+		return builder.toString();
 	}
 }
 
