@@ -13,40 +13,47 @@ public class MainEx10 {
 		Modification<Double> doubleMod = new Modification<Double>();
 //task1
 
-//		System.out.println(mod.indexReturnValue(intArr, 7) + "\n");
-//		System.out.println(mod22.indexReturnValue(intArr2, -9) + "\n");
-//		System.out.println(doubleMod.indexReturnValue(doubArray, 7) + "\n");
+		System.out.println(mod.indexReturnValue(intArr, 7) + "\n");
+		System.out.println(mod22.indexReturnValue(intArr2, -9) + "\n");
+		System.out.println(doubleMod.indexReturnValue(doubArray, 7) + "\n");
 
 //task 2
 		Integer[] intArr3 = { 9, 8, 7, null, 2 };
 		Integer[] intArr33 = { 9, 8, 7, null, null };
 
-//		for (Integer i : intArr3) {
-//			System.out.print(i + " ");
-//		}
-//		mod22.setItems(intArr3);
-//		mod22.addItemToEnd(intArr3, 5);
-//
-//		for (Integer i : mod22.getItems()) {
-//			System.out.print(i + " ");
-//		}
-//
-//		System.out.println();
-//		System.out.println();
-//
-//		for (Integer i : intArr33) {
-//			System.out.print(i + " ");
-//		}
-//		mod22.setItems(intArr33);
-//		mod22.addItemToEnd(intArr33, 11);
-//
-//		for (Integer i : mod22.getItems()) {
-//			System.out.print(i + " ");
-//		}
+		for (Integer i : intArr3) {
+			System.out.print(i + " ");
+		}
+
+		mod22.setItems(intArr3);
+		mod22.addItemToEnd(intArr3, 5);
+
+		for (Integer i : mod22.getItems()) {
+			System.out.print(i + " ");
+		}
+
+		System.out.println();
+		System.out.println();
+
+		for (Integer i : intArr33) {
+			System.out.print(i + " ");
+		}
+
+		mod22.setItems(intArr33);
+		mod22.addItemToEnd(intArr33, 11);
+
+		for (Integer i : mod22.getItems()) {
+			System.out.print(i + " ");
+		}
 //task 3	
+
+		for (Integer i : intArr3) {
+			System.out.print(i + " ");
+		}
 
 		mod22.setItems(intArr3);
 		mod22.addItemByIndex(intArr3, 1, 11);
+
 		for (Integer i : mod22.getItems()) {
 			System.out.print(i + " ");
 		}

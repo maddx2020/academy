@@ -10,7 +10,7 @@ package by.academy.Lesson9_Generic.Ex10;
 public class Modification<T extends Number> {
 
 	private T[] items;
-	private int i=-1;
+	private int i = -1;
 
 	public Modification() {
 		super();
@@ -70,13 +70,14 @@ public class Modification<T extends Number> {
 		} else {
 			System.out.println("\nМассив заполнен. Увеличиваем массив на один элемент!");
 			T[] items2 = (T[]) new Integer[items.length * 2];
-			for (int j = 0; j < items2.length; j++) {
+			for (int j = 0; j < items.length + 1; j++) {
+				i++;
 				if (i != index) {
-					i++;
 					items2[j] = items[i];
 				} else {
-//					i--;
 					items2[j] = item;
+					items2[j + 1] = items[i];
+					j++;
 				}
 			}
 			this.items = items2;
