@@ -10,8 +10,6 @@ package by.academy.Lesson9_Generic.Ex10;
 public class Modification<T extends Number> {
 
 	private T[] items;
-//	private int index;
-	private int result;
 
 	public Modification() {
 		super();
@@ -20,6 +18,7 @@ public class Modification<T extends Number> {
 	public Modification(T[] items) {
 		super();
 		this.items = items;
+
 	}
 
 	public T[] getItems() {
@@ -30,38 +29,31 @@ public class Modification<T extends Number> {
 		this.items = items;
 	}
 
-//	public int getIndex() {
-//		return index;
-//	}
-
-//	public void setIndex(int index) {
-//		this.index = index;
-//	}
-
-	private int getResult() {
-		return result;
-	}
-
-//	public void setResult(int result) {
-//		this.result = result;
-//	}
-
 	// implement check for array border
-	public void indexReturnValue(T[] items, int index) {
-		if (index > (items.length - 1)) {
-			System.out.println("Элемента с таким индексом в данном массиве - Нет!");
-
-		} else {
-			this.result = items[index].intValue();
-			System.out.println(getResult());
-
+	public T indexReturnValue(T[] items, int index) {
+		if (index < 0 || index >= items.length) {
+			System.out.println("Такого индекса в данном массиве Нет!");
+			return null;
+		} else if (items[index] == null) {
+			System.out.println("Элемента под таким индесом нет в массиве - Пустая ячейка!");
 		}
+		return items[index];
 	}
 
-	// implement check for array border
-	public void addItemToEnd(T[] items, double item) {
-		if() {
-			
+	// implement check for array border,add 1 element
+	@SuppressWarnings("unchecked")
+	public void addItemToEnd(T[] items, T item) {
+		if (items[items.length - 1] == null) {
+			System.out.println("\nПоследняя ячейка пустая - вносим туда элемент. ");
+			items[items.length - 1] = item;
+		} else {
+			System.out.println("\nМассив заполнен. Увеличиваем массив на один элемент!");
+			T[] items2 = (T[]) new Integer[items.length + 1];
+			for (int i = 0; i < items.length; i++) {
+				items2[i] = items[i];
+			}
+			items2[items.length] = item;
+			this.items = items2;
 		}
 
 	}
