@@ -10,6 +10,7 @@ package by.academy.Lesson9_Generic.Ex10;
 public class Modification<T extends Number> {
 
 	private T[] items;
+	private int i=-1;
 
 	public Modification() {
 		super();
@@ -59,7 +60,27 @@ public class Modification<T extends Number> {
 	}
 
 	// implement: check for array border;switch array(if full -> array.length*2)
-	public void addItemByIndex() {
+	@SuppressWarnings({ "unchecked" })
+	public void addItemByIndex(T[] items, int index, T item) {
+		if (index < 0 || index >= items.length) {
+			System.out.println("Такого индекса в данном массиве Нет!");
+		} else if (items[index] == null) {
+			System.out.println("Под этим индексом пустая ячейка. Вставляем наш элемент");
+			items[index] = item;
+		} else {
+			System.out.println("\nМассив заполнен. Увеличиваем массив на один элемент!");
+			T[] items2 = (T[]) new Integer[items.length * 2];
+			for (int j = 0; j < items2.length; j++) {
+				if (i != index) {
+					i++;
+					items2[j] = items[i];
+				} else {
+//					i--;
+					items2[j] = item;
+				}
+			}
+			this.items = items2;
+		}
 
 	}
 
