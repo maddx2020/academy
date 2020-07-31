@@ -22,9 +22,6 @@ public class Modification<T extends Number> {
 
 	}
 
-	
-	
-	
 	public T[] getItems() {
 		return items;
 	}
