@@ -6,12 +6,13 @@ public class Lesson3_2 {
 	public static void main(String[] args) {
 		int sum = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Введите число: ");
+		System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
 		int n = sc.nextInt();
 		for (int i = 0; i <= n; i++) {
 			sum += i;
 		}
-		System.out.println("Сумма чисел равна " + sum);
+		System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ " + sum);
+		sc.close();
 	}
 
 }

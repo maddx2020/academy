@@ -5,13 +5,14 @@ public class Lesson2_5 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Введенное число: ");
+		System.out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: ");
 		int number = sc.nextInt();
 		if (number % 2 == 0) {
-			System.out.println("Является ЧЕТНЫМ");
+			System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 		} else {
-			System.out.println("Является НЕЧЕТНЫМ");
+			System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		}
+		sc.close();
 	}
 
 }

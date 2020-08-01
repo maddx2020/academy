@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Lines2 {
 	public static void main(String[] args) {
-		String line = new String();
 		Scanner str = new Scanner(System.in);
 		int n = 0;
 		String[] arrayLines;
@@ -17,7 +16,7 @@ public class Lines2 {
 			arrayLines = new String[4];
 			arrayLines[n] = str.nextLine();
 			n++;
-		} while (arrayLines[n-1].length() != 0);
+		} while (arrayLines[n - 1].length() != 0);
 
 		for (String s : arrayLines) {
 			System.out.println(s);

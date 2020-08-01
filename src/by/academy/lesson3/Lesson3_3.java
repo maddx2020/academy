@@ -13,7 +13,7 @@ public class Lesson3_3 {
 			sum *= i;
 		}
 		System.out.println("Произведение чисел равна " + sum);
-
+		sc.close();
 	}
 
 }

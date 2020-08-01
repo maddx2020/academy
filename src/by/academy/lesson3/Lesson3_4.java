@@ -27,6 +27,7 @@ public class Lesson3_4 {
 		
 		}
 		System.out.println("Количество положительных чисел: " + pcount + " Количество отрицательных чисел: " + mcount + " Количество чисел c 0: " + count);
+		sc.close();
 	}
 	
 }
