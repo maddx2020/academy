@@ -19,9 +19,9 @@ public class MainCollect11_1 {
 		System.out.println(list);
 		HashSet<Integer> hs = new HashSet<Integer>(list);
 		
-//		System.out.println(hs);
+		System.out.println(hs);
 		
-		System.out.println(returnOne(list));
+//		System.out.println(returnOne(list));
 	}
 
 	public static HashSet<Integer> returnOne(ArrayList<Integer> list) {
