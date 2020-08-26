@@ -5,8 +5,17 @@ import java.util.function.Predicate;
 public class Task5 {
 
 	public static void main(String[] args) {
+
+//		String str = "hello";
+
+		Predicate<String> letIn = str -> ((str.charAt(0) == ('J')) || (str.charAt(0) == ('N'))) && (str.charAt(str.length()-1) ==('A'));
+
+		System.out.println(letIn.test("JANETTA"));
 		
-		Predicate<Character> let1 = p -> p.equals('J');
+		
+		//		if ((str.charAt(0) == ('J')) || (str.charAt(0) == ('N')) && (str.charAt(str.length()-1) ==('A'))) {
+//
+//		}
 
 	}
 
