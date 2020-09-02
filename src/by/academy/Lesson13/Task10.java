@@ -9,11 +9,11 @@ public class Task10 {
 
 		Map<String, MathOperation> calc = new HashMap<String, MathOperation>();
 		calc.put("+", (a, b) -> a + b);
-		calc.put("-", (a, b) -> a + b);
-		calc.put("/", (a, b) -> a + b);
-		calc.put("*", (a, b) -> a + b);
+		calc.put("-", (a, b) -> a - b);
+		calc.put("/", (a, b) -> a / b);
+		calc.put("*", (a, b) -> a * b);
 
-		System.out.println(calculate(1, 2, calc.get("+")));
+		System.out.println(calculate(4, 2, calc.get("*")));
 
 	}
 
