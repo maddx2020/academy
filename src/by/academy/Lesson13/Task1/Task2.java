@@ -1,4 +1,4 @@
-package by.academy.Lesson13;
+package by.academy.Lesson13.Task1;
 
 import java.util.function.Predicate;
 
