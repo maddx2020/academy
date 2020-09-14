@@ -14,7 +14,7 @@ public class Main_TH_RUN {
 
 		t1.start();
 		try {
-			Thread.sleep(200);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
