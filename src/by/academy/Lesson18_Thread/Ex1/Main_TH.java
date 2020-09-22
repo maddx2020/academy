@@ -6,8 +6,9 @@ public class Main_TH {
 		
 		
 		NewThread nt = new NewThread();
-		
-		nt.run();
+		NewThread nt1 = new NewThread();
+		nt.start();
+		nt1.start();
 
 	}
 
