@@ -12,14 +12,14 @@ public class Main_TH_RUN {
 		Thread t2 = new Thread(ntr2);
 		Thread t3 = new Thread(ntr3);
 
-		t1.start();
+		t2.start();
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		
-		t2.start();
+		t1.start();
 		t3.start();
 		
 
